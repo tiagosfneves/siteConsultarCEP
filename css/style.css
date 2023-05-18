@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8e800;
+    color: #2024ff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario {
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 2px solid #2024ff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btnPesquisar {
+    width: 100%;
+    padding: 8px;
+    background-color: #2024ff;
+    color: #f9f9f9;
+    border: none;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+#btnPesquisar:hover {
+    background-color: #2024ff;
+    opacity: .8;
+
+}
+
+input {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.imagem-bg {
+    width: 300px;
+    height: auto;
+    margin: 50px;
+}
