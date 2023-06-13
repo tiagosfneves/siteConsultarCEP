@@ -1,6 +1,6 @@
 # siteConsultarCEP
 Repositório do projeto - Site de Consulta de CEP com API CEP dos Correios
 
-## Resultado do Projeto versão desktop:
+## Resultado Final do Projeto:
 
-![Visão da Página Inicial](https://raw.githubusercontent.com/tiagosfneves/siteConsultarCEP/main/imgSiteFinal/printTelaFinal.jpg)
+![Logo do OpenAI](https://raw.githubusercontent.com/tiagosfneves/siteConsultarCEP/assets/visaoTelaInicial.jpg)
