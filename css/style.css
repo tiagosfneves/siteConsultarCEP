@@ -4,13 +4,18 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 body {
     background-color: #f8e800;
     color: #2024ff;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.imagem-bg {
+    width: 300px;
+    height: auto;
+    margin: 50px;
 }
 
 .formulario {
@@ -24,7 +29,13 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
+h1 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+input {
+    width: 100%;
+}
 #btnPesquisar {
     width: 100%;
     padding: 8px;
@@ -34,23 +45,30 @@ body {
     border-radius: 8px;
     margin-top: 8px;
 }
-
 #btnPesquisar:hover {
     background-color: #2024ff;
     opacity: .8;
 
 }
 
-input {
-    width: 100%;
+#resultado {
+    margin-top: 20px;
+    padding-bottom: 5px;
 }
 
-h1 {
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #263138;
+}
+.copyright {
+    color: #FFFFFF;
+    padding: 14px;
     text-align: center;
 }
-
-.imagem-bg {
-    width: 300px;
-    height: auto;
-    margin: 50px;
+.copyright a {
+    color: #f8e800d7;
+    text-decoration: none;
+    padding: 3px;
 }
