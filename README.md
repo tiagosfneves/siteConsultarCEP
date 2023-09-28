@@ -4,7 +4,7 @@ Este é um projeto simples de consulta de CEP que permite aos usuários encontra
 
 ## Layout Final do Projeto:
 
-![Visão da Página inicial](https://raw.githubusercontent.com/tiagosfneves/siteConsultarCEP/main/assets/visaoTelaInicial.jpg)
+![Visão da Página inicial](https://raw.githubusercontent.com/tiagosfneves/siteConsultarCEP/main/assets/layoutFinal.jpg)
 
 
 ## Funcionalidades
