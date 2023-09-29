@@ -6,6 +6,11 @@ Este é um projeto simples de consulta de CEP que permite aos usuários encontra
 
 ![Visão da Página inicial](./assets/layoutFinal.png)
 
+## Vídeo de Apresentação e Link de Acesso ao Projeto
+
+- Você pode acessar o projeto [aqui](https://soft-faloodeh-69b134.netlify.app/).
+
+- Assista a um vídeo de apresentação do projeto no LinkedIn [aqui](https://bit.ly/Site_Consultar_CEP_In).
 
 ## Funcionalidades
 
