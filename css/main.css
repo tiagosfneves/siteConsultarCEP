@@ -1,0 +1,8 @@
+/* Importar os estilos gerais */
+@import url('styles.css');
+
+/* Importar os estilos do tema escuro */
+@import url('theme.css');
+
+/* Importar os estilos de medias */
+@import url('medias.css');

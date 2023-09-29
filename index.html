@@ -5,18 +5,17 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
         <title>Consultar CEP</title>
         <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/main.css">
     </head>
 
     <body>
         <header>
             <div>
-                <img class="imagem-bg" src="https://tfile.com.br/consultarcep.com.br/upload/img/logo.png"
-                    alt="consulta cep">
+                <img class="imagem-bg" src="./assets/img/logo-consultar-cep.png" alt="logo consultar cep">
             </div>
         </header>
 
@@ -25,8 +24,13 @@
                 <div>
                     <h1>Informe o CEP</h1>
                     <input id="cep" type="text" placeholder="02200-100">
-                    <button id="btnPesquisar">Buscar</button>
+                    <button id="btnPesquisar"><strong>Buscar</strong></button>
                     <div id="resultado"></div>
+                </div>
+                <div>
+                    <button id="btnTema" title="Trocar de Tema!">
+                        <img src="./assets/icons/dark_theme.svg" alt="botão tema escuro">
+                    </button>
                 </div>
             </section>
         </main>
@@ -39,8 +43,8 @@
             </div>
         </footer>
 
-        <script src="./js/script.js"></script>
+        <script type="module" src="./js/cep.js"></script>
+        <script type="module" src="./js/theme.js"></script>
     </body>
 
 </html>
-
