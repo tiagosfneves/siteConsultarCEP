@@ -1,0 +1,24 @@
+/* Variáveis de CSS */
+:root {
+    --bg-tema-escuro: #000014;
+    --texto-tema-escuro: #fbeb40;
+    --botao-bg-tema-escuro: #fbeb40;
+    --botao-texto-tema-escuro: #000014;
+    --botao-bg-hover-tema-escuro: #f6e500;
+}
+
+/* Estilos para o tema escuro */
+.tema-escuro {
+    background-color: var(--bg-tema-escuro);
+    color: var(--texto-tema-escuro);
+}
+.tema-escuro .formulario {
+    background-color: var(--bg-tema-escuro);
+}
+.tema-escuro #btnPesquisar {
+    background-color: var(--botao-bg-tema-escuro);
+    color: var(--botao-texto-tema-escuro);
+}
+.tema-escuro #btnPesquisar:hover {
+    background-color: var(--botao-bg-hover-tema-escuro);
+}
